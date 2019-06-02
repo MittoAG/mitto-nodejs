@@ -100,16 +100,7 @@ var MittoClient = function(apiKey, testMode, debugMode){
 	}
 	
 	function sendUnicodeTextMessage(from, to, text, additionalOptions, callback) {
-		var unicodeDigits = stringToUnicodeCodePoints(text);
-		sendMessage({from: from, to: to, text: unicodeDigits, type: "unicode"}, additionalOptions, callback)
-	}
-	
-	function stringToUnicodeCodePoints(text) {
-		var codePoints = "";
-		for (var i = 0, length = text.length; i < length; i++) {
-  			codePoints = codePoints + text.codePointAt(i).toString(16).lpad("0", 4);
-		}
-		return codePoints.toUpperCase();
+		sendMessage({from: from, to: to, text: text, type: "unicode"}, additionalOptions, callback)
 	}
 	
 	return {
