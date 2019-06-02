@@ -1,0 +1,28 @@
+{
+  "name": "mitto-rest-client",
+  "version": "2.0.0",
+  "description": "The official nodejs wrapper for Mitto (https://www.mitto.ch/) REST API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MittoAG/mitto-nodejs.git"
+  },
+  "keywords": [
+    "SMS",
+    "Messaging",
+    "CPaaS",
+    "API",
+    "ReST",
+    "Http",
+    "Https",
+    "Mitto",
+    "Mitto AG",
+    "Mitto Client"
+  ],
+  "author": "Ramon Kania <ramon@mitto.ch> (https://www.mitto.ch)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MittoAG/mitto-nodejs/issues"
+  },
+  "homepage": "https://github.com/MittoAG/mitto-nodejs#readme"
+}
